@@ -1,0 +1,694 @@
+/* a.navbar-job {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+a.navbar-hire {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+.heeader {
+  background-color: gray;
+  height: 40px;
+}
+
+.jumbotron text-center {
+  background-color: white;
+}
+
+.navbar img {
+  margin-left: 100px;
+} */
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+.heeader {
+  height: 100px;
+  background-color: #ededed;
+  width: auto;
+  color: #333;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.header-linkss {
+  display: none;
+}
+
+.logo {
+  padding-left: 100px;
+}
+
+.direction-bar ul li a {
+  padding: 0px;
+  font-style: none;
+  font-weight: bolder;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  color: #333;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.direction-bar ul li a:hover {
+  color: red;
+}
+
+.direction-bar ul li {
+  padding-left: 120px;
+}
+
+.dropdown {
+  display: none;
+}
+
+.direction-bar {
+  padding-left: 0px;
+  width: auto;
+  height: 50px;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-links {
+  margin-top: 20px;
+}
+
+.header-links ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  color: #333;
+  font-family: 'Poppins', sans-serif !important;
+  /* font-weight: bold; */
+}
+
+.header-buttons {
+  padding: 16px;
+  margin: 0;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.header-buttons button {
+  margin-top: 15px;
+  height: 40px;
+  font-size: 12px;
+  width: 145px;
+}
+
+.header-buttons2 {
+  display: none;
+}
+
+.img-container {
+  width: 100%;
+  text-align: center;
+  color: white;
+  min-height: 400px;
+  position: relative;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: xx-large;
+  background-color: #333;
+}
+
+.bottom {
+  height: 100px;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #333;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Banner */
+.job-search-container {
+  width: 80%;
+  margin: auto;
+}
+
+.banner {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.banner .job-search-inner {
+  color: #fff;
+  text-align: left;
+}
+
+.btn-search {
+  background: #d51568;
+  color: #fff;
+  border: 1px solid #d51568;
+}
+
+.ch-title {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.ch-header-desc {
+  color: #fff;
+  margin-bottom: 30px !important;
+  margin-top: 20px !important;
+}
+
+.banner {
+  height: 420px;
+}
+
+.custom-margin {
+  margin-top: 40px;
+}
+
+.banner_content p {
+  width: 45%;
+}
+
+.panel--body {
+  text-align: center !important;
+  /* -webkit-tap-highlight-color: transparent; */
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  font-family: 'Poppins', sans-serif !important;
+  hyphens: initial;
+  /* box-sizing: border-box; */
+  /* background-image: url("img/Employer---Talk-to-us.jpg"); */
+}
+
+@media only screen and (max-width: 812px) and (orientation: landscape) {
+  .job-search-search-btn {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .banner {
+    height: auto;
+  }
+
+  .custom-margin {
+    margin-top: 10px;
+  }
+
+  .job-search-container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .btn-search {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .jobseekers .job-search-keyword,
+  .jobseekers .job-search-location {
+    display: inline-block;
+    width: 25%;
+    margin: 40px 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .jobseekers .job-search-keyword,
+  .jobseekers .job-search-location {
+    margin: 40px 20px;
+  }
+}
+
+/* banner */
+.centered h1 {
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.red {
+  color: #f50539;
+}
+
+.centered p {
+  color: black;
+  font-style: bold;
+  font-size: 20px;
+}
+
+.centered button {
+  background-color: #f50539;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.service {
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.service p {
+  margin-top: 30px;
+}
+
+.service h2 {
+  color: #f50539;
+  font-style: bold;
+  font-size: 30px;
+}
+
+.btn1 {
+  padding: 10px
+}
+
+.btn2 {
+  padding: 10px
+}
+
+.btn3 {
+  padding: 10px
+}
+
+.market {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.market2 {
+  display: none;
+}
+
+.market3 {
+  display: none;
+}
+
+.divisions {
+  text-align: center;
+  height: 300px;
+}
+
+.specialist {
+  color: #333;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 100px;
+  text-align: center;
+}
+
+footer {
+  background-color: gray;
+  margin-top: 60px;
+  height: auto;
+  color: #333;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.footer p {
+  color: white;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 411px) {
+  .heeader {
+    height: 50px;
+  }
+
+  .uper-nav {}
+
+  .navbar img {
+    display: block;
+  }
+
+  .navbar-left {
+    display: none;
+  }
+
+  .navbar-right {
+    font-size: 15px;
+  }
+
+  .navbar-right ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  .centered h1 {
+    margin-top: 70px;
+    font-size: 30px;
+    font-style: bold;
+    color: black;
+  }
+
+  .specialist {
+    float: none;
+    margin-top: 600px
+  }
+
+  .footer {
+    float: none;
+    margin-top: 400px
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    padding-left: 256px;
+  }
+
+  .dropdown a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .header-links {
+    display: none;
+  }
+
+  .header-buttons {
+    display: none;
+  }
+
+  .header-linkss {
+    display: none;
+  }
+
+  .direction-bar {
+    display: none;
+  }
+
+  .logo1 {
+    display: block;
+  }
+
+  .heeader {
+    height: 60px;
+  }
+
+  .centered h1 {
+    margin-top: 70px;
+    font-size: 30px;
+    font-style: bold;
+    color: black;
+  }
+
+  .specialist {
+    float: none;
+    margin-top: 600px
+  }
+
+  .footer {
+    float: none;
+    margin-top: 400px
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .heeader {
+    height: 50px;
+  }
+
+  .uper-nav {}
+
+  .navbar img {
+    display: none;
+  }
+
+  .navbar-left {
+    display: none;
+  }
+
+  .navbar-right {
+    font-size: 15px;
+  }
+
+  .navbar-right ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .centered h1 {
+    margin-top: 70px;
+    font-size: 30px;
+    font-style: bold;
+    color: black;
+  }
+
+  .specialist {
+    float: none;
+    margin-top: 600px
+  }
+
+  .footer {
+    float: none;
+    margin-top: 400px
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-links {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: none;
+  }
+
+  .header-linkss {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    padding-left: 80px;
+  }
+
+  .headre-inks2 {
+    color: black;
+  }
+
+  .header-buttons {
+    display: none;
+  }
+
+  .header-buttons2 {
+    display: block;
+    margin-top: none;
+  }
+
+  .market1 {
+    display: none;
+  }
+
+  .market3 {
+    display: none;
+  }
+
+  .market2 {
+    display: block;
+  }
+
+  .dropdown {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-links {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: none;
+  }
+
+  .header-linkss {
+    display: block;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 0;
+    padding-left: 10px;
+  }
+
+  .header-linkss button {
+    padding: 2px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    ;
+  }
+
+  .headre-inks2 {
+    color: black;
+  }
+
+  .header-buttons {
+    display: none;
+  }
+
+  .header-buttons2 {
+    display: block;
+    margin-top: none;
+  }
+
+  .market1 {
+    display: none;
+  }
+
+  .market2 {
+    display: none;
+  }
+
+  .market3 {
+    display: block;
+  }
+
+  .logo {
+    margin-left: 0px;
+    padding-left: 20px;
+  }
+
+  .market-img1 {
+    margin-left: 0;
+    padding-left: 10px;
+  }
+
+  .dropdown {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    padding-left: 256px;
+  }
+
+  .dropdown a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .header-links {
+    display: none;
+  }
+
+  .header-buttons {
+    display: none;
+  }
+
+  .header-linkss {
+    display: none;
+  }
+
+  .direction-bar {
+    display: none;
+  }
+
+  .logo1 {
+    display: block;
+  }
+
+  .heeader {
+    height: 60px;
+  }
+}
